@@ -253,6 +253,7 @@ $common-color: #e4b95b;
     }
     &_content_body_item .item_detail {
         width: 55%;
+        display: flex;
     }
     &_content_body_item .item_price,
     &_content_body_item .item_quanlity,
@@ -290,7 +291,6 @@ $common-color: #e4b95b;
         height: 110px;
         padding: 10px;
         margin-right: 10px;
-        float: left;
     }
     &_content_body .item_detail .item_image img {
         border: 1px solid #d2d2d2;
