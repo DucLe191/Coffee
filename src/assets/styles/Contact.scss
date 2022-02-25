@@ -1,0 +1,122 @@
+$common-color: #e4b95b;
+
+.contact {
+
+    //BreadCrumb
+     .container {
+        padding: 0 15px;
+    }
+    &_link {
+        color: $common-color;
+    }
+    &_link i {
+        color: #666;
+    }
+    //Content
+    &_content .col.first {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    &_content .col.second {
+        width: 33%;
+        padding-right: 15px;
+    }
+    &_content .col.third {
+        width: 67%;
+        padding-left: 15px;
+    }
+    &_content h1 {
+        font-size: 1.14286em;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    &_content ul li {
+        color: #333;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &_content form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    &_content form input {
+        height: 40px;
+        outline:none;
+        color: #55595c;
+        font-size: 1em;
+        padding: .375rem .75rem;
+        border: 1px solid #EAEBF3;
+    }
+    &_content form .input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_content form .input input {
+        width: 48%;
+        margin-bottom: 8px;
+    }
+    &_content form .input .input_name {
+        margin-right: 30px;
+    }
+    &_content form .input_phone {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    &_content form textarea {
+        width: 100%;
+        min-height: 136px;
+        padding: .375rem .75rem;
+        color: #55595c;
+        border: 1px solid #EAEBF3;
+        outline: none;
+        font-size: 1em;
+        margin-bottom: 8px;
+    }
+    &_content form button {
+        outline: none;
+        padding: 0 40px;
+        background: #e4b95b;
+        color: #fff;
+        height: 40px;
+        cursor: pointer;
+        border: none;
+        font-size: 14px;
+    }
+}
+
+/* Tablet */ 
+@media (min-width:46.250em) and (max-width:63.938em) {
+    .contact {
+        &_content .map {
+            max-height: 355px;
+        }
+    }
+}
+
+/* Mobile */
+@media (max-width:46.188em) {
+    .contact {
+        .row {
+            flex-direction: column;
+        }
+        &_content .map {
+            max-height: 350px;
+        }
+        &_content .col.second {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        &_content .col.third {
+            width: 100%;
+            padding: 0;
+        }
+        &_content form .input input {
+            width: 100%;
+        }
+        &_content form .input .input_name {
+            margin-right: 0;
+        } 
+    }
+}

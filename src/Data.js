@@ -1,0 +1,293 @@
+import Img1 from './assets/img/img1.jpg'
+import Img2 from './assets/img/img2.jpg'
+import Img3 from './assets/img/img3.jpg'
+import Img4 from './assets/img/img4.jpg'
+import Img5 from './assets/img/img5.jpg'
+import Img6 from './assets/img/img6.png'
+import Img7 from './assets/img/img7.png'
+import Img8 from './assets/img/img8.png'
+import Img9 from './assets/img/img9.png'
+import Img10 from './assets/img/img10.png'
+import Img11 from './assets/img/img11.png'
+import Img12 from './assets/img/img12.jpg'
+import Img13 from './assets/img/img13.jpg'
+import Img14 from './assets/img/img14.jpg'
+import Img15 from './assets/img/img15.jpg'
+import Img16 from './assets/img/img16.jpg'
+import Img17 from './assets/img/img17.jpg'
+import Img18 from './assets/img/img18.jpg'
+import Img19 from './assets/img/img19.jpg'
+import Img20 from './assets/img/img20.jpg'
+import Img21 from './assets/img/img21.jpg'
+import Img22 from './assets/img/img22.jpg'
+import Img23 from './assets/img/img23.jpg'
+import Img24 from './assets/img/img24.jpg'
+import Img25 from './assets/img/img25.jpg'
+
+const Data = {
+    productItem: [
+      {
+          id:1,
+          name:'VIETNAMESE COFFEE',
+          price:'59.000',
+          type:'coffee',
+          image: Img1,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'vietnamese-coffee',
+          note:'list-item',
+        },
+        {
+          id:2,
+          name:'HAZELNUT ICE BLENDED',
+          price:'80.000',
+          type:'coffee',
+          image: Img2,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'hazelnut-ice-blended',
+          note:'list-item',
+        },
+        {
+          id:3,
+          name:'AMERICANO',
+          price:'60.000',
+          type:'coffee',
+          image: Img3,
+          description:'Quả tươi sạch chuyên nhập khẩu và cung cấp các loại táo Queen, táo Envy nhập khẩu Mỹ và New Zealand. Có giấy tờ nhập khẩu, an toàn vệ sinh thực phẩm, kho lạnh bảo quản 24/24h, nhập khẩu theo đường bay nên táo luôn tươi và mới. Chúng tôi chỉ cung cấp những mặt hàng tươi ngon nhất, cam kết không bán hàng không rõ nguồn gốc xuất xứ.',
+          status:'Còn hàng',
+          slug:'americano2',
+          note:'list-item',
+        },
+        {
+          id:4,
+          name:'CHAI LATTE',
+          price:'80.000',
+          type:'coffee',
+          image: Img4,
+          description:'Quả tươi sạch chuyên nhập khẩu và cung cấp các loại táo Queen, táo Envy nhập khẩu Mỹ và New Zealand. Có giấy tờ nhập khẩu, an toàn vệ sinh thực phẩm, kho lạnh bảo quản 24/24h, nhập khẩu theo đường bay nên táo luôn tươi và mới. Chúng tôi chỉ cung cấp những mặt hàng tươi ngon nhất, cam kết không bán hàng không rõ nguồn gốc xuất xứ.',
+          status:'Còn hàng',
+          slug:'chai-latte',
+          note:'list-item',
+        },
+        {
+          id:5,
+          name:'AMERICANO',
+          price:'80.000',
+          type:'coffee',
+          image: Img5,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'americano',
+          note:'list-item',
+        },
+        {
+          id:6,
+          name:'CAFE ICE LATTE',
+          price:'60.000',
+          type:'coffee',
+          image: Img6,
+          description:'Cà phê đậm phong cách Ý được phối hợp với kem giúp giữ hương vị và tạo sự thơm ngon.',
+          status:'Còn hàng',
+          slug:'cafe-ice-latte',
+          note:'hot-item',
+        },
+        {
+          id:7,
+          name:'CAFE EXPRESSO',
+          price:'30.000',
+          type:'coffee',
+          image: Img7,
+          description:'Được pha chế bằng cách dùng nước nóng nén dưới áp suất cao qua bột cà phê được xay mịn.',
+          status:'Còn hàng',
+          slug:'cafe-expresso',
+          note:'hot-item',
+        },
+        {
+          id:8,
+          name:'CAFE AMERIACANO',
+          price:'35.000',
+          type:'coffee',
+          image: Img8,
+          description:'Đậm chất Mỹ với nước nóng được pha vào Espresso giúp cà phê có độ đậm đặc biệt.',
+          status:'Còn hàng',
+          slug:'cafe-ameriacano',
+          note:'hot-item',
+        },
+        {
+          id:9,
+          name:'CAFE MOCHA',
+          price:'50.000',
+          type:'coffee',
+          image: Img9,
+          description:'Hỗn hợp Espresso và chocolate nóng, kem tươi và chocolate sause béo ngậy, vị thơm.',
+          status:'Còn hàng',
+          slug:'cafe-mocha',
+          note:'hot-item',
+        },
+        {
+          id:10,
+          name:'CAFE CAPUCHINO',
+          price:'45.000',
+          type:'coffee',
+          image: Img10,
+          description:'Đậm phong cách Ý với 3 phần : Cà phê Espresso pha lượng nước gấp đôi, sữa nóng, sủi bọt.',
+          status:'Còn hàng',
+          slug:'cafe-capuchino',
+          note:'hot-item',
+        },
+        {
+          id:11,
+          name:'CAFE LATTE',
+          price:'49.000',
+          type:'coffee',
+          image: Img11,
+          description:'Cà phê sữa đậm phong cách Ý với cốc sữa lớn và được pha bằng sữa bò tươi 100% nguyên chất.',
+          status:'Còn hàng',
+          slug:'cafe-latte',
+          note:'hot-item',
+        },
+        {
+          id:12,
+          name:'Nước ép dứa',
+          price:'60.000',
+          type:'nuoc-ep',
+          image: Img12,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Chỉ còn 1 sản phẩm',
+          slug:'nuoc-ep-dua',
+        },
+        {
+          id:13,
+          name:'Nước ép táo',
+          price:'50.000',
+          type:'nuoc-ep',
+          image: Img13,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'nuoc-ep-tao',
+        },
+        {
+          id:14,
+          name:'Nước ép cam',
+          price:'65.000',
+          type:'nuoc-ep',
+          image: Img14,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'nuoc-ep-cam',
+        },
+        {
+          id:15,
+          name:'Nước ép dưa hấu',
+          price:'60.000',
+          type:'nuoc-ep',
+          image: Img15,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'nuoc-ep-dua-hau',
+        },
+        {
+          id:16,
+          name:'Bánh Flan',
+          price:'15.000',
+          type:'cake',
+          image: Img16,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'banh-flan',
+        },
+        {
+          id:17,
+          name:'Cocktail Bacardi',
+          price:'140.000',
+          type:'cock-tail',
+          image: Img17,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'cocktail-bacardi',
+        },
+        {
+          id:18,
+          name:'Cocktail B-52',
+          price:'120.000',
+          type:'cock-tail',
+          image: Img18,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'cocktail-b-52',
+        },
+        {
+          id:19,
+          name:'Cocktail Mojito',
+          price:'120.000',
+          type:'cock-tail',
+          image: Img19,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'cocktail-mojito',
+        },
+        {
+          id:20,
+          name:'Cocktail Bloody Mary',
+          price:'150.000',
+          type:'cock-tail',
+          image: Img20,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'cocktail-bloody-mary',
+        },
+        {
+          id:21,
+          name:'Trà sữa dâu tây',
+          price:'50.000',
+          type:'tea',
+          image: Img21,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'tra-sua-dau-tay',
+        },
+        {
+          id:22,
+          name:'Trà sữa khoai môn',
+          price:'50.000',
+          type:'tea',
+          image: Img22,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'tra-sua-khoai-mon',
+        },
+        {
+          id:23,
+          name:'Trà sữa bạc hà',
+          price:'50.000',
+          type:'tea',
+          image: Img23,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'tra-sua-bac-ha',
+        },
+        {
+          id:24,
+          name:'Trà sữa Wiki',
+          price:'60.000',
+          type:'tea',
+          image: Img24,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'tra-sua-wiki',
+        },
+        {
+          id:25,
+          name:'Trà sữa Gong Cha',
+          price:'80.000',
+          type:'tea',
+          image: Img25,
+          description:'Theo lời khuyên của các chuyên gia y tế cho rằng: mùa hè, bạn nên uống ít nhất 2 ly nước ép dưa hấu mỗi ngày. Bởi vì, khi đó các hàm lượng có sẵn chứa trong quả dưa hấu sẽ tự động làm giảm lượng calo bên cạnh việc duy trì sức khỏe của thận. Đồng thời, nó sẽ tự động loại bỏ các độc tố ra khỏi bàng quang, giúp cho cơ thể bạn luôn trong trạng thái khỏe mạnh.',
+          status:'Còn hàng',
+          slug:'tra-sua-gong-cha',
+        },
+  ]
+}
+
+export default Data;
