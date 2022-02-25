@@ -10,7 +10,7 @@ function CartViewProduct({product,addToCart,cartItem,removeCart,closeCartView}) 
                     <i className="icofont-check"></i> 
                     Bạn đã thêm <span> {product.name} </span> vào giỏ hàng
                 </div>
-                <Link to='#' className="cart_view_quanlity_link">
+                <Link to='/gio-hang' className="cart_view_quanlity_link">
                     <i className="icofont-shopping-cart"></i>
                     Giỏ hàng của bạn <span> ({cartItem.length} sản phẩm) </span> 
                     <i className="icofont-caret-right"></i>
@@ -33,7 +33,7 @@ function CartViewProduct({product,addToCart,cartItem,removeCart,closeCartView}) 
                                     </div>
                                     <div className="item_info">
                                         <p> <Link to={`/${item.slug}`} className="item_info_link"> {item.name} </Link> </p>
-                                        <p className="first"> <i className="icofont-close"></i> Xóa sản phẩm </p>
+                                        <p className="first" onClick={() => removeCart(item)}> <i className="icofont-close"></i> Xóa sản phẩm </p>
                                         <p className="second"> <i className="icofont-check"></i> Sản phẩm vừa thêm </p>
                                     </div>
                                 </div>
