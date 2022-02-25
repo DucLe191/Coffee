@@ -4,8 +4,22 @@ import '../../assets/styles/Page.scss'
 
 function DetailProduct(props) {
     const [type,setType] = useState(0);
+    const [number,setNumber] = useState(1)
     const activeTab = 'tab_active' 
     const {product,addToCart} = props
+    
+     const upNumber = () => {
+        setNumber(number + 1)
+    }
+    const downNumber = () => {
+        setNumber(number - 1)
+    }
+    useLayoutEffect(() => {
+        if(number < 1 ) {
+            setNumber(1)
+        }
+    },[number])
+    
     return (
         <div className='detail_content'>
             <div className='row'>
@@ -22,9 +36,12 @@ function DetailProduct(props) {
                     <div className='form_group'>
                         <form>
                             <div className='form_group_number'>
-                                <span className='decrease'> - </span>
-                                <input placeholder='1' maxLength={3} />
-                                <span className='increase'> + </span>
+                                <span className='decrease' onClick={downNumber}> - </span>
+                                <input value={number} 
+                                        maxLength={3}
+                                        onChange={e => setNumber(e.target.value) 
+                                 />
+                                <span className='increase' onClick={upNumber}> + </span>
                             </div>
                             <div className='form_group_btn' onClick={() => addToCart(product)}> Đặt hàng </div>
                         </form>
